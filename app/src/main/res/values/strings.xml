@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Kitchen</string>
+
+    <!--主页面 RadioGroup -->
+    <string name="kichen_home">下厨房</string>
+
+    <string name="market_home">市集</string>
+
+    <string name="society_home">社区</string>
+
+    <string name="mine_home">我</string>
+
+    <!---下厨房-->
+    <string name="center_kitchen">菜谱、食材</string>
+
+    <!--登录选择界面-->
+    <string name="cancel_login_activity">取消</string>
+
+    <string name="login_activity">登录</string>
+
+    <string name="telregister_login_activity">手机注册</string>
+
+    <!--登录界面-->
+    <string name="telemail_login_activity">手机号/邮箱</string>
+
+    <string name="pwd_login_activity">登录密码</string>
+
+    <string name="loginbymessage_login_activity">通过短信验证登录</string>
+
+    <string name="loginproblem_login_activity">登录遇到问题？</string>
+
+    <string name="qq_login_activity">QQ</string>
+
+    <string name="weibo_login_activity">微博</string>
+
+    <string name="douban_login_activity">豆瓣</string>
+
+    <!--手机注册页面-->
+    <string name="register_activity">手机注册</string>
+
+    <string name="wheretel_register_activity">中国大陆 +86</string>
+
+    <string name="tel_register_activity">手机号</string>
+
+    <string name="where_register_activity">所在地</string>
+
+    <string name="getyanzhengma_register_activity">收取验证码</string>
+
+    <!---菜篮子页面-->
+    <string name="vegbasket_vegbasket_activity">菜篮子</string>
+
+    <string name="clear_vegbasket_activity">清空</string>
+
+    <string name="changename_vegbasket_activity">(购买清单改名叫菜篮子啦)</string>
+
+    <string name="forgetbuy_vegbasket_activity">再也不会忘记要买葱了</string>
+
+    <!--厨房搜索页面-->
+    <string name="search_kitchensearch_activity">搜索</string>
+
+    <string name="searchfriend_kitchensearch_activity">搜厨友</string>
+
+    <string name="searchmenu_kitchensearch_activity">搜菜单</string>
+
+    <string name="popsearch_kitchensearch_activity">流行搜索</string>
+
+    <!--买买买界面-->
+    <string name="buy_kitchenbudegt_activity">买买买</string>
+
+    <string name="say_item_listview_kitchenbuy">评价</string>
+
+    <!--菜谱分类-->
+    <string name="category_kitchenbudegt_activity">菜谱分类</string>
+
+    <!--看视频界面-->
+    <string name="category_kitchenwatch_activity">看视频</string>
+</resources>

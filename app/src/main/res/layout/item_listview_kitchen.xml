@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_item_listview_kitchen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/title_1st_item_listview_kitchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/title_2nd_item_listview_kitchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/photo_item_listview_kitchen"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="150dp"
+        android:src="@mipmap/self_selected" />
+
+    <TextView
+        android:id="@+id/name_item_listview_kitchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/photo_item_listview_kitchen"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="10dp"
+        android:text="物质"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/title_item_listview_kitchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_item_listview_kitchen"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="title"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/desc_item_listview_kitchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_item_listview_kitchen"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="desc"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/scorecooked_item_listview_kitchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desc_item_listview_kitchen"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="desc"
+        android:textSize="12sp" />
+
+</RelativeLayout>

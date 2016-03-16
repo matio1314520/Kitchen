@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/allname_item_listview_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/allname_item_listview_find"
+        android:background="#e53935"/>
+
+    <TextView
+        android:id="@+id/name1_item_listview_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:text="1"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/name2_item_listview_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/name1_item_listview_find"
+        android:text="2"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/name3_item_listview_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name1_item_listview_find"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:text="3"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/name4_item_listview_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name2_item_listview_find"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/name3_item_listview_find"
+        android:text="4"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

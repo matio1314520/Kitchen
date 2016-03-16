@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6092cc</color>
+
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="pink">#ffc0cb</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="black">#000</color>
+
+    <color name="gray_kitchen">#f7f7f4</color>
+
+    <color name="gray">#f7f7f0</color>
+
+    <color name="white_kitchensearch">#ffffff</color>
+
+    <color name="view">#f4f4ef</color>
+
+    <color name="gray_login">#c6c6bd</color>
+
+
+    <color name="red">#f97460</color>
+</resources>

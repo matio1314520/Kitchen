@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_item_listview_kitchenwel"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/photo_item_listview_kitchenwel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="180dp"
+        android:src="@mipmap/self_selected" />
+
+    <TextView
+        android:id="@+id/name_item_listview_kitchenwel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/photo_item_listview_kitchenwel"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="物质"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/title_item_listview_kitchenwel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_item_listview_kitchenwel"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginTop="10dp"
+        android:text="title"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/desc_item_listview_kitchenwel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_item_listview_kitchenwel"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="desc"
+        android:textSize="18sp" />
+
+</RelativeLayout>

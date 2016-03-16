@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_item_listview_kitchenbuy"
+        android:layout_width="match_parent"
+        android:layout_height="190dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray"
+        android:paddingBottom="50dp">
+
+        <ImageView
+            android:id="@+id/icon_item_listview_kitchenbuy"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/name_item_listview_kitchenbuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/icon_item_listview_kitchenbuy"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/icon_item_listview_kitchenbuy"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/name_item_listview_kitchenbuy"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/name_item_listview_kitchenbuy"
+            android:text="@string/say_item_listview_kitchenbuy" />
+
+        <RatingBar
+            android:id="@+id/score_item_listview_kitchenbuy"
+            style="?android:ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_item_listview_kitchenbuy"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/icon_item_listview_kitchenbuy"
+              />
+
+
+        <TextView
+            android:id="@+id/time_item_listview_kitchenbuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/name_item_listview_kitchenbuy"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="一天前" />
+
+        <RelativeLayout
+            android:id="@+id/goodsnamerel_item_listview_kitchenbuy"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/icon_item_listview_kitchenbuy"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/another_item_listview_kitchenbuy"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="6dp"
+                android:src="@mipmap/dish_made_arrow" />
+
+            <TextView
+                android:id="@+id/goodsname_item_listview_kitchenbuy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/another_item_listview_kitchenbuy"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#e93539"
+                android:textSize="22sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/review_item_listview_kitchenbuy"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/goodsnamerel_item_listview_kitchenbuy"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/support_item_listview_kitchenbuy"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/review_item_listview_kitchenbuy"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/support_item_listview_kitchenbuy"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="14dp">
+
+            <ImageView
+                android:id="@+id/like_item_listview_kitchenbuy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/dish_like_image" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_toRightOf="@id/like_item_listview_kitchenbuy"
+                android:src="@mipmap/dish_comment" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="6dp"
+                android:src="@mipmap/dish_other_points" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

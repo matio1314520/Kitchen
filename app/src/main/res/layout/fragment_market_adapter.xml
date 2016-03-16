@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/iv_fragment_market_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/tv_fragment_market_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="乐众 | 新良蛋糕粉低筋面粉 500g"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:layout_below="@+id/iv_fragment_market_image"
+        android:padding="10dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rel_sale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_fragment_market_name"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tv_fragment_market_total_sales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已售：2491"/>
+        <TextView
+            android:id="@+id/tv_fragment_market_display_freight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="包邮"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_fragment_market_display_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¥54.0"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@+id/rel_sale"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="15dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cancel_loginchoose_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/cancel_login_activity"
+        android:textColor="@color/red"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:src="@mipmap/entrance_bg" />
+
+    <Button
+        android:id="@+id/login_loginchoose_activity"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:background="@drawable/loginchoose_button_shape"
+        android:text="@string/login_activity"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/register_loginchoose_activity"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:background="@drawable/loginchoose_register_shape"
+        android:text="@string/telregister_login_activity"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="18sp" />
+
+</RelativeLayout>
